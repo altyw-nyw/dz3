@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+body {
+    background-color: silver;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: 2px solid teal;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+}
+
+#create_btn {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #083333;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+#todo_list {
+    width: 750px;
+    margin: 10px auto;
+}
+
+.block_text {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    border: 2px solid teal;
+    padding: 8px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.buttons_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.delete_button {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #01080e;
+    cursor: pointer;
+    background: #5254bc;
+    border-radius: 10px;
+    color: #01080e;
+    text-align: center;
+}
+
+.edit_button {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #01080e;
+    cursor: pointer;
+    background: #3a9f30;
+    border-radius: 10px;
+    color: #01080e;
+    text-align: center;
+}
+
